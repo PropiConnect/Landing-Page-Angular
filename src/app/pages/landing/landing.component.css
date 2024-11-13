@@ -277,7 +277,16 @@ body {
 .reseña-texto {
   flex-grow: 1;
 }
+.company-logo{
+  height: 50px;
+  width: 50px;
+}
+.company-logotype{
+  height: 350px;
+  width: 350px;
 
+
+}
 .reseña-usuario {
   font-weight: bold;
   margin-bottom: 10px;
@@ -298,7 +307,10 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-
+#equipos{
+  display: flex;
+  flex-direction:row-reverse;
+}
 /* Estilo para la imagen del equipo */
 .equipo img {
   max-width: 100%;
@@ -311,16 +323,45 @@ body {
   text-align: center;
   padding: 0 20px;
 }
+.members{
+  margin-top: 45px;
+  display:flex;
+  flex-direction:row;
+}
+.member{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin: 0 20px;
+  max-width: 200px;
+  text-align:center;
+  gap: 10px;
+}
+.member-photo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #007bff;
+}
+.member-name{
+  font-weight: bold;
+}
 
+.spacer-bottom{
+  margin-bottom: 20px;
+}
 /* Medios Responsivos */
 @media (max-width: 768px) {
   .company-info,
   .equipo {
+
     flex-direction: column; /* Apila los elementos verticalmente en pantallas pequeñas */
     text-align: center; /* Centra el texto en pantallas pequeñas */
   }
 
   .company-logo {
+
     margin-right: 0; /* Elimina el margen a la derecha en pantallas pequeñas */
     margin-bottom: 20px; /* Añade un margen inferior en pantallas pequeñas */
   }
