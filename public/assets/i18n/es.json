@@ -1,3 +1,99 @@
 {
-
+  "toolbar": {
+    "inicio": "Inicio",
+    "servicios": "Servicios",
+    "equipos": "Equipo",
+    "planes": "Planes",
+    "reseñas": "Testimonios"
+  },
+  "companyInfo": {
+    "welcome": "Bienvenido a Inmoshare",
+    "description": "En PropiConnect, ofrecemos la plataforma integral Inmoshare para la gestión de propiedades. Nuestra misión es simplificar la compra, venta y alquiler de propiedades, brindando herramientas eficientes para propietarios, inquilinos e inversionistas. Ya sea que quieras alquilar o vender tu propiedad, gestionar pagos y contratos, o participar en la copropiedad de inmuebles, estamos aquí para ayudarte. Descubre cómo nuestra tecnología puede transformar la forma en que gestionas tus propiedades y maximizas tus ingresos.",
+    "cta": "Comenzar"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "gestionPropiedades": {
+      "title": "Gestión de Propiedades",
+      "description": {
+        "d1": "Publica propiedades para alquilar o vender.",
+        "d2": "Verifica y envía recordatorios de pago.",
+        "d3": "Genera y gestiona contratos de alquiler.",
+        "d4": "Modifica los detalles de la propiedad.",
+        "d5": "Consulta la disponibilidad de propiedades."
+      }
+    },
+    "gestionInquilinos": {
+      "title": "Gestión de Inquilinos",
+      "description": {
+        "d1": "Realiza pagos de alquiler de forma segura.",
+        "d2": "Envía recordatorios de pago.",
+        "d3": "Consulta el historial de pagos.",
+        "d4": "Solicita y confirma mantenimiento."
+      }
+    },
+    "compraCompartida": {
+      "title": "Copropiedad",
+      "description": {
+        "d1": "Divide propiedades en participaciones.",
+        "d2": "Distribuye ingresos por alquiler.",
+        "d3": "Muestra la distribución de ingresos.",
+        "d4": "Ajusta las participaciones de la propiedad."
+      }
+    }
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "description": "Nuestro equipo está compuesto por ingenieros de software de la UPC que se destacan por su inteligencia y dedicación. Nos esforzamos por garantizar que nuestros usuarios estén completamente satisfechos con nuestros servicios. Con un enfoque en la innovación y la eficiencia, trabajamos diariamente para brindar soluciones tecnológicas que superen las expectativas y ofrezcan una experiencia excepcional en la gestión de propiedades."
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros usuarios",
+    "t1": "Propietario",
+    "t2": "Inquilino",
+    "reviews": {
+      "user1": "¡Servicio excelente! Pude alquilar mi propiedad rápidamente y gestionar todos los pagos a través de la plataforma.",
+      "user2": "Me encanta lo fácil que es encontrar propiedades, y la opción de copropiedad es genial.",
+      "user3": "La mejor plataforma para gestionar mis propiedades, incluso recibo informes de valoración.",
+      "user4": "El plan Pro me permitió unirme a otros para comprar una propiedad. ¡Ahora soy dueño de una casa!",
+      "user5": "El soporte y las características de gestión son de primera. Totalmente recomendado."
+    }
+  },
+  "plans": {
+    "title": "Nuestros Planes",
+    "free": {
+      "title": "Gratis",
+      "description": {
+        "d1": "Te permite publicar y ver propiedades."
+      },
+      "price": "$0 por mes"
+    },
+    "pro": {
+      "title": "Pro",
+      "description": {
+        "d1": "Gestiona hasta 10 propiedades.",
+        "d2": "Los inquilinos pueden gestionar finanzas.",
+        "d3": "Sube documentos de validación.",
+        "d4": "Compras compartidas de propiedades.",
+        "d5": "Genera cobros desde la app."
+      },
+      "price": "$50 por mes"
+    },
+    "enterprise": {
+      "title": "Empresarial",
+      "description": {
+        "d1": "Gestiona hasta 30 propiedades.",
+        "d2": "Los inquilinos pueden gestionar finanzas.",
+        "d3": "Sube documentos de validación.",
+        "d4": "Compras compartidas de propiedades.",
+        "d5": "Genera cobros desde la app.",
+        "d6": "Estudios de valoración de propiedades.",
+        "d7": "Generación de informes de mercado."
+      },
+      "price": "$150 por mes"
+    }
+  },
+  "footer": {
+    "email": "Correo Electrónico",
+    "phone": "Teléfono"
+  }
 }

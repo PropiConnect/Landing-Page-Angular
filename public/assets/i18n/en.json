@@ -1,3 +1,99 @@
 {
-
+  "toolbar": {
+    "inicio": "Home",
+    "servicios": "Services",
+    "equipos": "Team",
+    "planes": "Plans",
+    "reseñas": "Testimonials"
+  },
+  "companyInfo": {
+    "welcome": "Welcome to Inmoshare",
+    "description": "At PropiConnect, we offer the comprehensive Inmoshare platform for property management. Our mission is to simplify the buying, selling, and renting of properties, providing efficient tools for owners, tenants, and investors. Whether you want to rent or sell your property, manage payments and contracts, or participate in shared property ownership, we're here to help. Discover how our technology can transform the way you manage your properties and maximize your income.",
+    "cta": "Get Started"
+  },
+  "services": {
+    "title": "Our Services",
+    "gestionPropiedades": {
+      "title": "Property Management",
+      "description": {
+        "d1": "List properties for rent or sale.",
+        "d2": "Verify and send payment reminders.",
+        "d3": "Generate and manage rental contracts.",
+        "d4": "Modify property details.",
+        "d5": "Check property availability."
+      }
+    },
+    "gestionInquilinos": {
+      "title": "Tenant Management",
+      "description": {
+        "d1": "Make secure rental payments.",
+        "d2": "Send payment reminders.",
+        "d3": "View payment history.",
+        "d4": "Request and confirm maintenance."
+      }
+    },
+    "compraCompartida": {
+      "title": "Shared Ownership",
+      "description": {
+        "d1": "Divide properties into shares.",
+        "d2": "Distribute rental income.",
+        "d3": "Display income distribution.",
+        "d4": "Adjust property shares."
+      }
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Our team is made up of UPC software engineers who stand out for their intelligence and dedication. We strive to ensure that our users are completely satisfied with our services. With a focus on innovation and efficiency, we work daily to provide technological solutions that exceed expectations and deliver an exceptional property management experience."
+  },
+  "testimonials": {
+    "title": "What our users say",
+    "t1": "Owner",
+    "t2": "Tenant",
+    "reviews": {
+      "user1": "Excellent service! I was able to rent out my property quickly and manage all payments through the platform.",
+      "user2": "I love how easy it is to find properties, and the shared ownership option is great.",
+      "user3": "The best platform to manage my properties, I even get valuation reports.",
+      "user4": "The Pro plan allowed me to join others to buy a property. Now I'm a homeowner!",
+      "user5": "The support and management features are top-notch. Totally recommended."
+    }
+  },
+  "plans": {
+    "title": "Our Plans",
+    "free": {
+      "title": "Free",
+      "description": {
+        "d1": "Allows you to publish and view properties."
+      },
+      "price": "$0 per month"
+    },
+    "pro": {
+      "title": "Pro",
+      "description": {
+        "d1": "Manage up to 10 properties.",
+        "d2": "Tenants can manage finances.",
+        "d3": "Upload validation documents.",
+        "d4": "Shared property purchases.",
+        "d5": "Generate collections from the app."
+      },
+      "price": "$50 per month"
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": {
+        "d1": "Manage up to 30 properties.",
+        "d2": "Tenants can manage finances.",
+        "d3": "Upload validation documents.",
+        "d4": "Shared property purchases.",
+        "d5": "Generate collections from the app.",
+        "d6": "Property valuation studies.",
+        "d7": "Market report generation."
+      },
+      "price": "$150 per month"
+    }
+  },
+  "footer": {
+    "email": "Email",
+    "phone": "Phone"
+  }
 }

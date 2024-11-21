@@ -13,13 +13,14 @@
 <mat-toolbar class="toolbar">
   <div class="toolbar-left">
     <img src="https://raw.githubusercontent.com/PropiConnect/Documentation/refs/heads/main/assets/LandingPage/images/PropiConnect_Logo.jpeg" class="company-logo" alt="PropiConnect Logo">
-    <a href="#company-info"><i class="fas fa-home"></i>Inicio</a>
-    <a href="#services"><i class="fas fa-concierge-bell"></i>Servicios</a>
-    <a href="#equipos"><i class="fas fa-cogs"></i>Equipos</a>
-    <a href="#plans"><i class="fas fa-list-alt"></i>Planes</a>
-    <a href="#reseñas"><i class="fas fa-comment-alt"></i>Testimonios</a>
+    <a href="#company-info"><i class="fas fa-home"></i>  {{'toolbar.inicio' | translate}} </a>
+    <a href="#services"><i class="fas fa-concierge-bell"></i>  {{'toolbar.servicios' | translate}} </a>
+    <a href="#equipos"><i class="fas fa-cogs"></i>  {{'toolbar.servicios' | translate}}</a>
+    <a href="#plans"><i class="fas fa-list-alt"></i> {{'toolbar.planes' | translate}}</a>
+    <a href="#reseñas"><i class="fas fa-comment-alt"></i> {{'toolbar.reseñas' | translate}}</a>
   </div>
   <div class="toolbar-right">
+  <app-language-switcher/>
   </div>
 
 </mat-toolbar>
@@ -28,50 +29,44 @@
   <div>
   </div>
   <div class="company-description">
-    <h1>Bienvenido a Inmoshare</h1>
+    <h1> {{'companyInfo.welcome' | translate}}</h1>
 
     <p>
-      En PropiConnect, ofrecemos la plataforma integral Inmoshare para la gestión de propiedades.
-      Nuestra misión es simplificar la compra, venta, y alquiler de inmuebles, proporcionando herramientas
-      eficientes para propietarios, inquilinos e inversores. Ya sea que desees alquilar o vender tu propiedad,
-      gestionar pagos y contratos, o participar en la compra compartida de inmuebles, estamos aquí para ayudarte.
-      Descubre cómo nuestra tecnología puede transformar la forma en que gestionas tus propiedades y maximiza
-      tus ingresos.
+      {{'companyInfo.description' | translate}}
     </p>
   </div>
   <div class="call-to-action">
-    <a href="https://inmoshare.netlify.app" class="button">Comencemos</a>
+    <a href="https://inmoshare.netlify.app" class="button"> {{'companyInfo.cta' | translate}}</a>
   </div>
 
 </div>
 
 <!-- Sección de Servicios -->
 <section id="services" class="services">
-  <h2>Nuestros Servicios</h2>
+  <h2> {{'services.title' | translate}}</h2>
   <div class="service-cards">
     <div class="service-card">
 
       <img src="https://raw.githubusercontent.com/PropiConnect/Documentation/refs/heads/main/assets/LandingPage/images/Gesti%C3%B3n_de_Propiedades.jpeg">
 
-      <h3>Gestión de Propiedades</h3>
+      <h3> {{'services.gestionPropiedades.title' | translate}}</h3>
       <p>
-        - Lista propiedades para alquilar o vender.<br>
-        - Verifica y envía recordatorios de pagos.<br>
-        - Genera y gestiona contratos de alquiler.<br>
-        - Modifica detalles de propiedades.<br>
-        - Consulta disponibilidad de propiedades.
+        - {{'services.gestionPropiedades.description.d1' | translate}} <br>
+        - {{'services.gestionPropiedades.description.d2' | translate}} <br>
+        - {{'services.gestionPropiedades.description.d3' | translate}} <br>
+        - {{'services.gestionPropiedades.description.d4' | translate}} <br>
       </p>
     </div>
     <div class="service-card">
       <img src="https://raw.githubusercontent.com/PropiConnect/Documentation/refs/heads/main/assets/LandingPage/images/Gesti%C3%B3n_de_Inquilinos.jpg">
       <br>
       <br>
-      <h3>Gestión de Inquilinos</h3>
+      <h3>{{'services.gestionInquilinos.title' | translate}}</h3>
       <p>
-        - Realiza pagos de alquiler de forma segura.<br>
-        - Envía recordatorios de pago.<br>
-        - Muestra historial de pagos.<br>
-        - Solicita y confirma mantenimiento.
+        - {{'services.gestionInquilinos.description.d1' | translate}}. <br>
+        - {{'services.gestionInquilinos.description.d2' | translate}}.<br>
+        - {{'services.gestionInquilinos.description.d3' | translate}}.<br>
+        - {{'services.gestionInquilinos.description.d4' | translate}}.<br>
       </p>
     </div>
     <div class="service-card">
@@ -80,12 +75,12 @@
       <br>
       <br>
       <br>
-      <h3>Compra Compartida</h3>
+      <h3>{{'services.compraCompartida.title' | translate}}</h3>
       <p>
-        - Divide propiedades en porcentajes.<br>
-        - Distribuye ganancias de alquiler.<br>
-        - Muestra distribución de ganancias.<br>
-        - Ajusta porcentajes de propiedad.
+        - {{'services.compraCompartida.description.d1' | translate}}.<br>
+        - {{'services.compraCompartida.description.d2' | translate}}.<br>
+        - {{'services.compraCompartida.description.d3' | translate}}.<br>
+        - {{'services.compraCompartida.description.d4' | translate}}.<br>
       </p>
     </div>
 
@@ -96,12 +91,9 @@
 <section id="equipos" class="company-info">
   <img src="https://raw.githubusercontent.com/PropiConnect/Documentation/refs/heads/main/assets/LandingPage/images/PropiConnect_Logo.jpeg" class="company-logotype" alt="Nuestro Equipo">
   <div class="company-description">
-    <h2>Nuestro Equipo</h2>
+    <h2>{{'team.title' | translate}}</h2>
     <p>
-      Nuestro equipo está conformado por ingenieros de software de la UPC, quienes destacan por su inteligencia y dedicación.
-      Nos esforzamos al máximo para asegurar que nuestros usuarios estén completamente satisfechos con nuestros servicios.
-      Con un enfoque en la innovación y la eficiencia, trabajamos día a día para ofrecer soluciones tecnológicas que superen
-      las expectativas y brinden una experiencia excepcional en la gestión de propiedades.
+      {{'team.description' | translate}}
     </p>
 
     <div class="spacer-bottom"></div>
@@ -149,66 +141,70 @@
 
 <!-- Sección de Reseñas -->
 <section id="reseñas">
-  <h2>Lo que dicen nuestros usuarios</h2>
+  <h2>{{'testimonials.title' | translate}}</h2>
   <div class="reseñas-container">
     <div class="reseña">
       <img src="https://raw.githubusercontent.com/PropiConnect/Documentation/refs/heads/main/assets/LandingPage/images/usuario1.jpg" alt="Usuario 1">
-      <p><strong>María López (Propietaria):</strong> ¡Excelente servicio! Pude alquilar mi propiedad rápidamente y gestionar todos los pagos desde la plataforma.</p>
+      <p><strong>María López ({{'testimonials.t1'|translate}}):</strong>{{'testimonials.reviews.user1' | translate}} .</p>
     </div>
     <div class="reseña">
       <img src="https://raw.githubusercontent.com/PropiConnect/Documentation/refs/heads/main/assets/LandingPage/images/usuario2.jpeg" alt="Usuario 2">
-      <p><strong>Carlos Ramírez (Inquilino):</strong> Me encanta lo fácil que es buscar propiedades y la opción de compra compartida es genial.</p>
+      <p><strong>Carlos Ramírez ({{'testimonials.t2'|translate}}):</strong>{{'testimonials.reviews.user2' | translate}}.</p>
     </div>
     <div class="reseña">
       <img src="https://raw.githubusercontent.com/PropiConnect/Documentation/refs/heads/main/assets/LandingPage/images/usuario3.jpg" alt="Usuario 3">
-      <p><strong>Laura Gómez (Propietaria):</strong> La mejor plataforma para gestionar mis inmuebles, incluso obtengo reportes de valorización.</p>
+      <p><strong>Laura Gómez ({{'testimonials.t1'|translate}}):</strong>{{'testimonials.reviews.user3' | translate}} .</p>
     </div>
     <div class="reseña">
       <img src="https://raw.githubusercontent.com/PropiConnect/Documentation/refs/heads/main/assets/LandingPage/images/usuario4.webp" alt="Usuario 4">
-      <p><strong>Pedro Fernández (Inquilino):</strong> El plan Pro me permitió unirme a otros para comprar una propiedad. ¡Ahora soy propietario!</p>
+      <p><strong>Pedro Fernández ({{'testimonials.t2'|translate}}):</strong>{{'testimonials.reviews.user4' | translate}} </p>
     </div>
     <div class="reseña">
       <img src="https://raw.githubusercontent.com/PropiConnect/Documentation/refs/heads/main/assets/LandingPage/images/usuario5.jpg" alt="Usuario 5">
-      <p><strong>Elena Martínez (Propietaria):</strong> El soporte y las funciones de administración son de primera calidad. Totalmente recomendado.</p>
+      <p><strong>Elena Martínez ({{'testimonials.t1'|translate}}):</strong>{{'testimonials.reviews.user5' | translate}} </p>
     </div>
   </div>
 </section>
 
 <!-- Planes -->
 <section id="plans" class="plans">
-  <h2>Nuestros Planes</h2>
+  <h2>{{'plans.title'|translate}}</h2>
   <div class="plan-cards">
     <!-- Plan Gratuito -->
     <mat-card class="plan-card free">
-      <mat-card-title class="mat-h2">Gratuito</mat-card-title>
-      <mat-card-subtitle>Permite publicar y ver propiedades.</mat-card-subtitle>
-      <mat-card-subtitle class="plan-price">$0 mensuales</mat-card-subtitle>
+      <mat-card-title class="mat-h2">{{'plans.free.title'|translate}}</mat-card-title>
+      <mat-card-subtitle>{{'plans.free.description.d1'|translate}}</mat-card-subtitle>
+      <mat-card-subtitle class="plan-price">{{'plans.free.price'|translate}}</mat-card-subtitle>
     </mat-card>
     <!-- Plan Pro -->
     <mat-card class="plan-card pro">
-      <mat-card-title class="mat-h2">Pro</mat-card-title>
+      <mat-card-title class="mat-h2">{{'plans.pro.title'|translate}}</mat-card-title>
       <mat-card-subtitle>
-        - Administra hasta 10 propiedades.<br>
-        - Inquilinos pueden administrar finanzas.<br>
-        - Subida de documentos de validación.<br>
-        - Compra de inmuebles compartida.<br>
-        - Genera cobranzas desde la app.
+        - {{'plans.pro.description.d1'|translate}}<br>
+        - {{'plans.pro.description.d2'|translate}}<br>
+        - {{'plans.pro.description.d3'|translate}}<br>
+        - {{'plans.pro.description.d4'|translate}}<br>
+        - {{'plans.pro.description.d5'|translate}}<br>
+
+
       </mat-card-subtitle>
-      <p class="plan-price">$50 mensuales</p>
+      <p class="plan-price">{{'plans.pro.price'|translate}}</p>
     </mat-card>
     <!-- Plan Enterprise -->
     <mat-card class="plan-card enterprise">
       <mat-card-title class="entprise">Enterprise</mat-card-title>
       <mat-card-subtitle class="entprise">
-        - Administra hasta 30 propiedades.<br>
-        - Inquilinos pueden administrar finanzas.<br>
-        - Subida de documentos de validación.<br>
-        - Compra de inmuebles compartida.<br>
-        - Genera cobranzas desde la app.
-        - Estudios de valorización de propiedades.<br>
-        - Generación de reportes de mercado.
+        -{{'plans.enterprise.description.d1'|translate}} <br>
+        -{{'plans.enterprise.description.d2'|translate}} <br>
+        -{{'plans.enterprise.description.d3'|translate}} <br>
+        -{{'plans.enterprise.description.d4'|translate}} <br>
+        -{{'plans.enterprise.description.d5'|translate}} <br>
+        -{{'plans.enterprise.description.d6'|translate}} <br>
+        -{{'plans.enterprise.description.d7'|translate}} <br>
+
+
       </mat-card-subtitle>
-      <mat-card-subtitle class="entpr">$150 mensuales</mat-card-subtitle>
+      <mat-card-subtitle class="entpr">{{'plans.pro.price'|translate}}</mat-card-subtitle>
     </mat-card>
   </div>
 </section>
@@ -216,8 +212,8 @@
 <footer>
   <div class="footer-bar">
     <p>
-      <i class="fas fa-envelope"></i> Correo: <a href="mailto:PropiConnect@gmail.com">PropiConnect&#64;gmail.com</a> |
-      <i class="fas fa-phone"></i> Teléfono: <a href="tel:+0123456789">+01 234 567 89</a>
+      <i class="fas fa-envelope"></i> {{'footer.email' | translate}}: <a href="mailto:PropiConnect@gmail.com">PropiConnect&#64;gmail.com</a> |
+      <i class="fas fa-phone"></i> {{'footer.phone' | translate}}: <a href="tel:+0123456789">+01 234 567 89</a>
     </p>
   </div>
 </footer>
